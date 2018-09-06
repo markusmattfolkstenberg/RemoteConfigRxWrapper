@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RemoteConfigRxWrapper_Example' do
+  pod 'RemoteConfigRxWrapper', :path => '../'
+
+  target 'RemoteConfigRxWrapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
