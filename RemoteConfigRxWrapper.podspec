@@ -9,34 +9,26 @@
 Pod::Spec.new do |s|
   s.name             = 'RemoteConfigRxWrapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RemoteConfigRxWrapper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Markus Mattfolk Stenberg/RemoteConfigRxWrapper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Markus Mattfolk Stenberg' => 'markus.mattfolk@chas.se' }
-  s.source           = { :git => 'https://github.com/Markus Mattfolk Stenberg/RemoteConfigRxWrapper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'RemoteConfigRxWrapper/Classes/**/*'
+  s.summary          = 'Rx wrapper around Firebase Remoteconfig.'
   
-  # s.resource_bundles = {
-  #   'RemoteConfigRxWrapper' => ['RemoteConfigRxWrapper/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.description      = <<-DESC
+  Rx wrapper around Firebase Remoteconifg.
+  Built to get values as observables and update them automatically.
+  DESC
+  
+  s.homepage         = 'https://github.com/markusmattfolkstenberg/RemoteConfigRxWrapper'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Markus Mattfolk Stenberg' => 'markusstenberg@gmail.com' }
+  s.source           = { :git => 'https://github.com/markusmattfolkstenberg/RemoteConfigRxWrapper.git', :tag => s.version.to_s }
+  s.static_framework = true
+  
+  s.cocoapods_version = '>= 1.5.3'
+  s.swift_version = '4.0'
+  s.ios.deployment_target = '10.3'
+  
+  s.dependency 'RxSwift', '~> 4'
+  s.dependency 'FirebaseRemoteConfig', '~> 3.0.1'
+  s.ios.deployment_target = '10.3'
+  
+  s.source_files = 'RemoteConfigRxWrapper/Classes/**/*'
 end

@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2830CD882141569A004A55EE /* RemoteConfigMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2830CD872141569A004A55EE /* RemoteConfigMock.swift */; };
+		2830CD892141570B004A55EE /* RemoteConfigMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2830CD872141569A004A55EE /* RemoteConfigMock.swift */; };
+		2830CD8D21415F21004A55EE /* RemoteConfigRxWrapper+SystemStatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2830CD8C21415F21004A55EE /* RemoteConfigRxWrapper+SystemStatusMessage.swift */; };
 		4320143158254CAE3030A6B2 /* Pods_RemoteConfigRxWrapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD23D6EE0B1595442CD6424 /* Pods_RemoteConfigRxWrapper_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* RemoteConfigRxWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* RemoteConfigRxWrapperTests.swift */; };
 		7B6CEEC9328FF006C5FE6A4B /* Pods_RemoteConfigRxWrapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29577902A600093EA33BB8FF /* Pods_RemoteConfigRxWrapper_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,11 +33,13 @@
 /* Begin PBXFileReference section */
 		160778F43799490C188D05C1 /* Pods-RemoteConfigRxWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfigRxWrapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Tests/Pods-RemoteConfigRxWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25ABA28799DDD0832B7976D3 /* Pods-RemoteConfigRxWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfigRxWrapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Example/Pods-RemoteConfigRxWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2830CD872141569A004A55EE /* RemoteConfigMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigMock.swift; sourceTree = "<group>"; };
+		2830CD8C21415F21004A55EE /* RemoteConfigRxWrapper+SystemStatusMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteConfigRxWrapper+SystemStatusMessage.swift"; sourceTree = "<group>"; };
 		29577902A600093EA33BB8FF /* Pods_RemoteConfigRxWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfigRxWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF6860B0C0D9AFA1185A0D8 /* Pods-RemoteConfigRxWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfigRxWrapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Tests/Pods-RemoteConfigRxWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		356BD79FF199A7D834C597AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		356BD79FF199A7D834C597AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3DAFC366DAC8DBD394B3F58A /* Pods-RemoteConfigRxWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteConfigRxWrapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Example/Pods-RemoteConfigRxWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53D06CBADD7045AA47A3B349 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53D06CBADD7045AA47A3B349 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RemoteConfigRxWrapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteConfigRxWrapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +49,8 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RemoteConfigRxWrapper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteConfigRxWrapper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8367F3BBC2D692E44E478A82 /* RemoteConfigRxWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RemoteConfigRxWrapper.podspec; path = ../RemoteConfigRxWrapper.podspec; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* RemoteConfigRxWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigRxWrapperTests.swift; sourceTree = "<group>"; };
+		8367F3BBC2D692E44E478A82 /* RemoteConfigRxWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RemoteConfigRxWrapper.podspec; path = ../RemoteConfigRxWrapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAD23D6EE0B1595442CD6424 /* Pods_RemoteConfigRxWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteConfigRxWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +85,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2830CD8A21415733004A55EE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2830CD872141569A004A55EE /* RemoteConfigMock.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		2830CD8B21415E45004A55EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2830CD8C21415F21004A55EE /* RemoteConfigRxWrapper+SystemStatusMessage.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +125,8 @@
 		607FACD21AFB9204008FA782 /* Example for RemoteConfigRxWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				2830CD8B21415E45004A55EE /* Extensions */,
+				2830CD8A21415733004A55EE /* Mocks */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -126,7 +149,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* RemoteConfigRxWrapperTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -189,6 +212,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				F0AFC95981D23F8A2F81E0D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,15 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RemoteConfigRxWrapper_Tests-checkManifestLockResult.txt",
 			);
@@ -288,21 +308,47 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Example/Pods-RemoteConfigRxWrapper_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RemoteConfigRxWrapper/RemoteConfigRxWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RemoteConfigRxWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Example/Pods-RemoteConfigRxWrapper_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AFC95981D23F8A2F81E0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Tests/Pods-RemoteConfigRxWrapper_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteConfigRxWrapper_Tests/Pods-RemoteConfigRxWrapper_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9CE7EB0EBF99921FE7802FC /* [CP] Check Pods Manifest.lock */ = {
@@ -310,15 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RemoteConfigRxWrapper_Example-checkManifestLockResult.txt",
 			);
@@ -334,6 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2830CD8D21415F21004A55EE /* RemoteConfigRxWrapper+SystemStatusMessage.swift in Sources */,
+				2830CD882141569A004A55EE /* RemoteConfigMock.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -343,7 +387,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* RemoteConfigRxWrapperTests.swift in Sources */,
+				2830CD892141570B004A55EE /* RemoteConfigMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -518,6 +563,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
@@ -536,6 +582,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
