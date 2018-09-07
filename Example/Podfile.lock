@@ -68,7 +68,7 @@ DEPENDENCIES:
   - RemoteConfigRxWrapper (from `../`)
   - RxCocoa (~> 4.2.0)
   - RxOptional (~> 3.5.0)
-  - RxTest
+  - RxTest (~> 4.2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -100,12 +100,12 @@ SPEC CHECKSUMS:
   GoogleUtilities: 6f681e27050c5e130325e89fa0316dfca826f954
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
-  RemoteConfigRxWrapper: 1cd821702020d77922c5c41f1ba7874855479fe1
+  RemoteConfigRxWrapper: 0f8d18e1773c264c49fe8f18e084e4283af7b80c
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxOptional: bd32ff8ca9df4177683d56ffeb618a9d4d5d5cad
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   RxTest: 8da864c0ee47534f586ff18fb0c7e5b2f1fe5023
 
-PODFILE CHECKSUM: 1f60be643962a741b6b1415581745ad8a180885e
+PODFILE CHECKSUM: e475aec8369b1aedd5c7cc9a7593db3b1606f024
 
 COCOAPODS: 1.5.3
