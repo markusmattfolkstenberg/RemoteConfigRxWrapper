@@ -2,13 +2,13 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 language: swift
-osx_image: xcode9.2
+osx_image: xcode9.4
 
 install: true
 
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
-- pod install --project-directory=Example
+- pod install --project-directory=Example --repo-update
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/RemoteConfigRxWrapper.xcworkspace -scheme RemoteConfigRxWrapper-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/RemoteConfigRxWrapper.xcworkspace -scheme RemoteConfigRxWrapper-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.3.1' ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint

@@ -1,6 +1,6 @@
 # RemoteConfigRxWrapper
 
-[![CI Status](https://img.shields.io/travis/Markus Mattfolk Stenberg/RemoteConfigRxWrapper.svg?style=flat)](https://travis-ci.org/Markus Mattfolk Stenberg/RemoteConfigRxWrapper)
+[![CI Status](https://img.shields.io/travis/markusmattfolkstenberg/RemoteConfigRxWrapper.svg?style=flat)](https://travis-ci.org/markusmattfolkstenberg/RemoteConfigRxWrapper)
 [![Version](https://img.shields.io/cocoapods/v/RemoteConfigRxWrapper.svg?style=flat)](https://cocoapods.org/pods/RemoteConfigRxWrapper)
 [![License](https://img.shields.io/cocoapods/l/RemoteConfigRxWrapper.svg?style=flat)](https://cocoapods.org/pods/RemoteConfigRxWrapper)
 [![Platform](https://img.shields.io/cocoapods/p/RemoteConfigRxWrapper.svg?style=flat)](https://cocoapods.org/pods/RemoteConfigRxWrapper)
